@@ -13,6 +13,7 @@ chishop = __import__('chishop', {}, {}, [''])
 
 tests_require = [
     'djangopypi',
+    'z3c.pypimirror',
     'South==0.7.1',
     'Django>=1.3',
     'django-registration',
