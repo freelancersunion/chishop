@@ -13,7 +13,7 @@ DATABASES = dict(
 		NAME = 'chishop',
 		USER = 'chishop',
 		PASSWORD = 'GogDadjerm1',
-		HOST = '',
+		HOST = 'localhost',
 		PORT = '',
 	)
 )
