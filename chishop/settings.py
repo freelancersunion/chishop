@@ -21,7 +21,7 @@ DATABASES = dict(
 STATIC_URL = '/media/'
 
 HAYSTACK_SEARCH_ENGINE = 'whoosh'
-#HAYSTACK_SITECONF = 'chishop.search_sites'
+HAYSTACK_SITECONF = 'chishop.search_sites'
 HAYSTACK_WHOOSH_PATH = os.path.join(os.path.dirname(chishop.__file__), 'haystack')
 DJANGOPYPI_PROXY_MISSING = True
 CACHE_PROXIED_PACKAGES = True
